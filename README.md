@@ -2,7 +2,7 @@
 
 The suggested name was `legendary-octo-fortnight`
 
-This is just some widget things based on scriptable that I've been using to scratch an itch with my iphone.
+This is just some widget things based on [scriptable](https://scriptable.app/) that I've been using to scratch an itch with my iphone.
 
 - unsplash-pic.js -> Widget that downloads and displays a picture from the specified unsplash collection
    - The default is `4770206/gin-tonic`
