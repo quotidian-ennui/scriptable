@@ -2,12 +2,12 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-gray; icon-glyph: images;
 // Widget parameters are json, because that's cool right
-// { "bg" : "background.png", "unsplash" : "224/winter-wonderland"}
+// { "bg" : "background.jpg", "unsplash" : "224"}
 // You will need to setup a bookmarked local path called "Pictures" for Scriptables to use.
 // Image changes daily.
 // If you set the action when you click to be "run script"; then it will change the picture.
 
-const params = JSON.parse(args.widgetParameter) || { "bg" : "daily-background.png", "unsplash" : "4770206/gin-tonic"};
+const params = JSON.parse(args.widgetParameter) || { "bg" : "daily-background.hpg", "unsplash" : "81532942"};
 const imgCollection = params.unsplash;
 const unsplashUrl = "https://source.unsplash.com/collection/";
 let forcedDownload = false;
