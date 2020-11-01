@@ -7,7 +7,7 @@
 // Image changes daily.
 // If you set the action when you click to be "run script"; then it will change the picture.
 
-const params = JSON.parse(args.widgetParameter) || { "bg" : "daily-background.hpg", "unsplash" : "81532942"};
+const params = JSON.parse(args.widgetParameter) || { "bg" : "daily-background.jpg", "unsplash" : "50603271"};
 const imgCollection = params.unsplash;
 const unsplashUrl = "https://source.unsplash.com/collection/";
 let forcedDownload = false;
